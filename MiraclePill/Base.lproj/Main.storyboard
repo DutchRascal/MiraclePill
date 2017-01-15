@@ -109,8 +109,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6B-BA-BqP">
                                 <rect key="frame" x="20" y="404" width="153" height="30"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6B-BA-BqP">
+                                <rect key="frame" x="20" y="452" width="153" height="30"/>
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                                 <constraints>
                                     <constraint firstAttribute="width" constant="153" id="M9U-X2-DG0"/>
                                     <constraint firstAttribute="height" constant="30" id="hHS-Cb-Kqo"/>
@@ -120,8 +125,13 @@
                                     <action selector="stateBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIB-6Q-Dbp"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NW-26-plk">
                                 <rect key="frame" x="68" y="436" width="240" height="155"/>
+=======
+                            <pickerView hidden="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9NW-26-plk">
+                                <rect key="frame" x="67" y="490" width="240" height="155"/>
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="3Ro-pU-sOa"/>
                                     <constraint firstAttribute="height" constant="155" id="Bi0-da-Oj1"/>
@@ -179,15 +189,22 @@
                         <constraints>
                             <constraint firstItem="V34-FW-bzz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="0Gk-d7-Cs7"/>
                             <constraint firstItem="Gde-Is-CMF" firstAttribute="centerX" secondItem="Vah-2k-pQz" secondAttribute="centerX" id="0VP-WJ-zW7"/>
+<<<<<<< HEAD
                             <constraint firstItem="a6B-BA-BqP" firstAttribute="leading" secondItem="f1r-xB-Qas" secondAttribute="leading" id="2gs-ua-q5u"/>
                             <constraint firstItem="OPE-Zc-htd" firstAttribute="top" secondItem="c2f-Qr-HAr" secondAttribute="bottom" constant="2" id="3Kp-BB-ARC"/>
                             <constraint firstItem="bU3-b6-f5N" firstAttribute="top" secondItem="4JB-zC-2QW" secondAttribute="bottom" constant="2" id="3Ol-As-8F8"/>
+=======
+                            <constraint firstItem="bU3-b6-f5N" firstAttribute="top" secondItem="4JB-zC-2QW" secondAttribute="bottom" constant="8" id="3Ol-As-8F8"/>
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                             <constraint firstItem="f1r-xB-Qas" firstAttribute="trailing" secondItem="bU3-b6-f5N" secondAttribute="trailing" id="5p0-1h-npf"/>
                             <constraint firstItem="wiL-Gq-fOr" firstAttribute="top" secondItem="Gde-Is-CMF" secondAttribute="bottom" constant="2" id="83A-0d-Xpb"/>
                             <constraint firstAttribute="trailing" secondItem="Gde-Is-CMF" secondAttribute="trailing" constant="20" id="AhX-kW-abI"/>
+<<<<<<< HEAD
                             <constraint firstItem="OPE-Zc-htd" firstAttribute="top" secondItem="c2f-Qr-HAr" secondAttribute="bottom" constant="2" id="C4w-Rb-TOD"/>
                             <constraint firstItem="9NW-26-plk" firstAttribute="top" secondItem="a6B-BA-BqP" secondAttribute="bottom" constant="2" id="CW2-ab-9aF"/>
                             <constraint firstItem="OPE-Zc-htd" firstAttribute="leading" secondItem="c2f-Qr-HAr" secondAttribute="leading" id="Dd2-NM-zCR"/>
+=======
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                             <constraint firstItem="gL2-Ec-vF6" firstAttribute="trailing" secondItem="0Yd-iL-vJw" secondAttribute="trailing" id="EI1-Od-6ZN"/>
                             <constraint firstItem="V34-FW-bzz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FaN-H3-w7M"/>
                             <constraint firstItem="j4p-BU-jaa" firstAttribute="top" secondItem="V34-FW-bzz" secondAttribute="bottom" constant="25" id="Fpr-Za-Iv6"/>
@@ -219,10 +236,14 @@
                             <constraint firstItem="OPE-Zc-htd" firstAttribute="top" secondItem="c2f-Qr-HAr" secondAttribute="bottom" constant="2" id="j5X-24-V9B"/>
                             <constraint firstItem="j4p-BU-jaa" firstAttribute="centerX" secondItem="V34-FW-bzz" secondAttribute="centerX" id="nlS-1L-Ryz"/>
                             <constraint firstItem="9NW-26-plk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nyk-z0-ib2"/>
+<<<<<<< HEAD
                             <constraint firstItem="kBl-ly-PTi" firstAttribute="top" secondItem="bHT-Py-CQc" secondAttribute="bottom" constant="2" id="oZl-mq-g22"/>
                             <constraint firstItem="4JB-zC-2QW" firstAttribute="top" secondItem="gL2-Ec-vF6" secondAttribute="bottom" constant="2" id="pWt-Kg-8HE"/>
                             <constraint firstItem="c2f-Qr-HAr" firstAttribute="leading" secondItem="kBl-ly-PTi" secondAttribute="leading" id="pYI-q0-eTi"/>
                             <constraint firstItem="a6B-BA-BqP" firstAttribute="top" secondItem="f1r-xB-Qas" secondAttribute="bottom" constant="2" id="ptS-az-5vZ"/>
+=======
+                            <constraint firstItem="4JB-zC-2QW" firstAttribute="top" secondItem="gL2-Ec-vF6" secondAttribute="bottom" constant="8" id="pWt-Kg-8HE"/>
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                             <constraint firstItem="wiL-Gq-fOr" firstAttribute="trailing" secondItem="Gde-Is-CMF" secondAttribute="trailing" id="s6W-6e-2cG"/>
                             <constraint firstItem="gL2-Ec-vF6" firstAttribute="leading" secondItem="0Yd-iL-vJw" secondAttribute="leading" id="tAW-x6-iQV"/>
                             <constraint firstItem="kHg-ZF-Lep" firstAttribute="trailing" secondItem="OPE-Zc-htd" secondAttribute="trailing" id="tFd-0G-PfA"/>
@@ -230,6 +251,7 @@
                         </constraints>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="addressLabel" destination="gL2-Ec-vF6" id="qiv-ho-AYE"/>
                         <outlet property="addressText" destination="4JB-zC-2QW" id="liX-Zn-eye"/>
                         <outlet property="buyBtn" destination="kHg-ZF-Lep" id="jiP-8q-Qph"/>
@@ -246,6 +268,10 @@
                         <outlet property="successImage" destination="IGi-BC-Bqj" id="WaO-Uw-q8Q"/>
                         <outlet property="zipLabel" destination="c2f-Qr-HAr" id="NwW-bS-fRf"/>
                         <outlet property="zipText" destination="OPE-Zc-htd" id="MNp-FZ-jgw"/>
+=======
+                        <outlet property="statePicker" destination="9NW-26-plk" id="XNt-Ir-NqX"/>
+                        <outlet property="statePickerBtn" destination="a6B-BA-BqP" id="xBy-qD-GCJ"/>
+>>>>>>> b0354bac30b6f85b1201068582a5602aa74d1792
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
