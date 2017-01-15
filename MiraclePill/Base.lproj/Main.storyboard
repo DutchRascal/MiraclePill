@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACKE PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4p-BU-jaa">
-                                <rect key="frame" x="84.5" y="168" width="206" height="21"/>
+                                <rect key="frame" x="85" y="168" width="206" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="bpx-Nd-YUY"/>
                                     <constraint firstAttribute="width" constant="206" id="opO-dL-FJs"/>
@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ 150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vah-2k-pQz">
-                                <rect key="frame" x="161.5" y="197" width="52" height="23"/>
+                                <rect key="frame" x="162" y="197" width="52" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="52" id="0N7-zO-PFH"/>
                                     <constraint firstAttribute="height" constant="23" id="iNX-pr-Gy8"/>
@@ -116,9 +116,12 @@
                                     <constraint firstAttribute="height" constant="30" id="hHS-Cb-Kqo"/>
                                 </constraints>
                                 <state key="normal" title="Choose Your State"/>
+                                <connections>
+                                    <action selector="stateBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIB-6Q-Dbp"/>
+                                </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NW-26-plk">
-                                <rect key="frame" x="67.5" y="490" width="240" height="155"/>
+                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NW-26-plk">
+                                <rect key="frame" x="67" y="490" width="240" height="155"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="3Ro-pU-sOa"/>
                                     <constraint firstAttribute="height" constant="155" id="Bi0-da-Oj1"/>
@@ -161,6 +164,10 @@
                             <constraint firstItem="Vah-2k-pQz" firstAttribute="top" secondItem="j4p-BU-jaa" secondAttribute="bottom" constant="8" id="vwb-02-Ad8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="statePicker" destination="9NW-26-plk" id="XNt-Ir-NqX"/>
+                        <outlet property="statePickerBtn" destination="a6B-BA-BqP" id="xBy-qD-GCJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
