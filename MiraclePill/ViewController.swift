@@ -13,23 +13,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
-    @IBOutlet weak var fullNameLabel: UILabel!
-    @IBOutlet weak var fullNameText: UITextField!
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var addressText: UITextField!
-    @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var cityText: UITextField!
-    @IBOutlet weak var countryLabel: UILabel!
-    @IBOutlet weak var countryText: UITextField!
-    @IBOutlet weak var zipLabel: UILabel!
-    @IBOutlet weak var zipText: UITextField!
-    @IBOutlet weak var priceText: UILabel!
-    @IBOutlet weak var pillImage: UIImageView!
-    @IBOutlet weak var buyBtn: UIButton!
-    @IBOutlet weak var successImage: UIImageView!
     
- 
-    let states = ["","Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+    let states = ["Alaska", "Arkansas","Alabama","California","Main","New York"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +29,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     @IBAction func stateBtnPressed(_ sender: Any) {
         statePicker.isHidden = false
+<<<<<<< HEAD
         countryText.isHidden = true
         countryLabel.isHidden = true
         zipLabel.isHidden = true
@@ -55,6 +41,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             view.isHidden = true
         }
         successImage.isHidden = false
+=======
+>>>>>>> parent of 1a4c5fe... After exercise
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -73,10 +61,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         statePickerBtn.setTitle(states[row], for: UIControlState.normal)
         statePicker.isHidden = true
-        countryLabel.isHidden = false
-        countryText.isHidden = false
-        zipText.isHidden = false
-        zipLabel.isHidden = false
     }
     
 }
